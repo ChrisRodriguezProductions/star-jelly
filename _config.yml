@@ -1,8 +1,18 @@
-highlighter: pygments
-permalink: /star-jelly/:year/:month/:day/:title
-markdown: kramdown
-exclude: ['.git']
+# Site Settings
 name: "Star Jelly"
-description: "Ethan Rodriguez's Art Portfolio"
-#url: http://cdr255.com
-twitter: starjelly13
+title: "Star Jelly"
+email: ejr255@gmail.com
+description: >-
+  Ethan Rodriguez's Art Porfolio.
+baseurl: "/star-jelly"
+url: ""
+twitter_username: starjelly13
+github_username: ejr255
+
+# Build Settings
+markdown: kramdown
+highlighter: pygments
+
+# Not Used
+#permalink: /star-jelly/:year/:month/:day/:title
+#exclude: ['.git']
