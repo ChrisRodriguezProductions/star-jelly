@@ -14,5 +14,5 @@ markdown: kramdown
 highlighter: pygments
 
 # Not Used
-#permalink: /star-jelly/:year/:month/:day/:title
+permalink: /star-jelly/:year/:month/:day/:title
 #exclude: ['.git']
