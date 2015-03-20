@@ -1,7 +1,8 @@
-pygments: true
-permalink: /otter-pop/:year/:month/:day/:title
-markdown: rdiscount
+highlighter: pygments
+permalink: /star-jelly/:year/:month/:day/:title
+markdown: kramdown
 exclude: ['.git']
-name: "Otter Pop"
-description: "The world's greated jekyll theme"
-url: http://tybenz.com/otter-pop
+name: "Star Jelly"
+description: "Ethan Rodriguez's Art Portfolio"
+#url: http://cdr255.com
+twitter: starjelly13
