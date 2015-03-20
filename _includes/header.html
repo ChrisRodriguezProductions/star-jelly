@@ -5,40 +5,40 @@
     <title>{{ site.name }} - {{ site.description }}</title>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png?v=wA2mqpyO64"/>
-    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png?v=wA2mqpyO64"/>
-    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png?v=wA2mqpyO64"/>
-    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png?v=wA2mqpyO64"/>
-    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png?v=wA2mqpyO64"/>
-    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png?v=wA2mqpyO64"/>
-    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png?v=wA2mqpyO64"/>
-    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png?v=wA2mqpyO64"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon-180x180.png?v=wA2mqpyO64"/>
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png?v=wA2mqpyO64" sizes="32x32"/>
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-194x194.png?v=wA2mqpyO64" sizes="194x194"/>
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png?v=wA2mqpyO64" sizes="96x96"/>
-    <link rel="icon" type="image/png" href="/img/favicons/android-chrome-192x192.png?v=wA2mqpyO64" sizes="192x192"/>
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png?v=wA2mqpyO64" sizes="16x16"/>
-    <link rel="manifest" href="/img/favicons/manifest.json?v=wA2mqpyO64"/>
-    <link rel="shortcut icon" href="/img/favicons/favicon.ico?v=wA2mqpyO64"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl }}/img/favicons/apple-touch-icon-57x57.png?v=wA2mqpyO64"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl }}/img/favicons/apple-touch-icon-60x60.png?v=wA2mqpyO64"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}/img/favicons/apple-touch-icon-72x72.png?v=wA2mqpyO64"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}/img/favicons/apple-touch-icon-76x76.png?v=wA2mqpyO64"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}/img/favicons/apple-touch-icon-114x114.png?v=wA2mqpyO64"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}/img/favicons/apple-touch-icon-120x120.png?v=wA2mqpyO64"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseurl }}/img/favicons/apple-touch-icon-144x144.png?v=wA2mqpyO64"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl }}/img/favicons/apple-touch-icon-152x152.png?v=wA2mqpyO64"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/img/favicons/apple-touch-icon-180x180.png?v=wA2mqpyO64"/>
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/favicons/favicon-32x32.png?v=wA2mqpyO64" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/favicons/favicon-194x194.png?v=wA2mqpyO64" sizes="194x194"/>
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/favicons/favicon-96x96.png?v=wA2mqpyO64" sizes="96x96"/>
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/favicons/android-chrome-192x192.png?v=wA2mqpyO64" sizes="192x192"/>
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/favicons/favicon-16x16.png?v=wA2mqpyO64" sizes="16x16"/>
+    <link rel="manifest" href="{{ site.baseurl }}/img/favicons/manifest.json?v=wA2mqpyO64"/>
+    <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicons/favicon.ico?v=wA2mqpyO64"/>
     <meta name="msapplication-TileColor" content="#ebaeb0"/>
-    <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png?v=wA2mqpyO64"/>
-    <meta name="msapplication-config" content="/img/favicons/browserconfig.xml?v=wA2mqpyO64"/>
+    <meta name="msapplication-TileImage" content="{{ site.baseurl }}/img/favicons/mstile-144x144.png?v=wA2mqpyO64"/>
+    <meta name="msapplication-config" content="{{ site.baseurl }}/img/favicons/browserconfig.xml?v=wA2mqpyO64"/>
     <meta name="theme-color" content="#ebaeb0"/>
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <div class="sidebar">
-    <a href="/" class="logo">
-      <img src="/img/logo.jpg" style="max-width: 250px;">
+    <a href="{{ site.baseurl }}" class="logo">
+      <img src="{{ site.baseurl }}/img/logo.jpg" style="max-width: 250px;">
     </a>
 
     <ul class="nav">
       <div class="nav-inner">
-        <li><a href="/"><span class="icon doc"></span>blog</a></li>
-        <li><a href="/about"><span class="icon info"></span>about</a></li>
-        <li><a href="/projects"><span class="icon code"></span>projects</a></li>
+        <li><a href="{{ site.baseurl }}/"><span class="icon doc"></span>blog</a></li>
+        <li><a href="{{ site.baseurl }}/about"><span class="icon info"></span>about</a></li>
+        <li><a href="{{ site.baseurl }}/projects"><span class="icon code"></span>projects</a></li>
 <!--        <li><a href="http://spamthe.net"><span class="icon link"></span>links</a></li> -->
         <li><a href="http://github.com/ejr255"><span class="icon github"></span>github</a></li>
         <li><a href="http://twitter.com/starjelly13"><span class="icon twitter"></span>twitter</a></li>
